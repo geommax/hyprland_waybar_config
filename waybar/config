@@ -52,11 +52,5 @@
     "format": " {:%Y-%m-%d %H:%M}"
   },
 
-  "custom/power": {
-    "format": "⏻",
-    "on-click": "~/.config/waybar/scripts/power.sh poweroff",
-    "on-click-right": "~/.config/waybar/scripts/power.sh reboot",
-    "tooltip": "LMB: Poweroff | RMB: Reboot"
-  }
 }
 

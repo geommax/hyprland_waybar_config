@@ -1,7 +1,7 @@
 {
   "layer": "top",
   "position": "top",
-  "height": 28,
+  "height": 10,
 
   "modules-left": [
     "hyprland/workspaces"
@@ -24,17 +24,17 @@
 
   "custom/cpu": {
     "exec": "~/.config/waybar/scripts/cpu.sh",
-    "interval": 2
+    "interval": 4
   },
 
   "custom/mem": {
     "exec": "~/.config/waybar/scripts/mem.sh",
-    "interval": 3
+    "interval": 4
   },
 
   "custom/gpu": {
     "exec": "~/.config/waybar/scripts/gpu.sh",
-    "interval": 3
+    "interval": 4
   },
 
   "custom/netspeed": {

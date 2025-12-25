@@ -1,0 +1,62 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 28,
+
+  "modules-left": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-center": [
+    "hyprland/window"
+  ],
+
+  "modules-right": [
+    "custom/cpu",
+    "custom/mem",
+    "custom/gpu",
+    "custom/netspeed",
+    "battery",
+    "clock",
+    "tray",
+    "custom/power"
+  ],
+
+  "custom/cpu": {
+    "exec": "~/.config/waybar/scripts/cpu.sh",
+    "interval": 2
+  },
+
+  "custom/mem": {
+    "exec": "~/.config/waybar/scripts/mem.sh",
+    "interval": 3
+  },
+
+  "custom/gpu": {
+    "exec": "~/.config/waybar/scripts/gpu.sh",
+    "interval": 3
+  },
+
+  "custom/netspeed": {
+    "exec": "~/.config/waybar/scripts/netspeed.sh",
+    "interval": 2
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "format": "{icon} {capacity}%",
+    "format-icons": ["󰂎","󰁺","󰁻","󰁼","󰁽","󰁾","󰁿","󰂀","󰂁","󰂂","󰁹"]
+  },
+
+  "clock": {
+    "format": " {:%Y-%m-%d %H:%M}"
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "on-click": "~/.config/waybar/scripts/power.sh poweroff",
+    "on-click-right": "~/.config/waybar/scripts/power.sh reboot",
+    "tooltip": "LMB: Poweroff | RMB: Reboot"
+  }
+}
+

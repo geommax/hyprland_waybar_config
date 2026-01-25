@@ -28,3 +28,11 @@ https://github.com/end-4/dots-hyprland
 Just run bash <(curl -s https://ii.clsty.link/get)
 Or, clone this repo and run ./setup install
 See document for details.
+
+
+
+##  hyprland command ကို တိုက်ရိုက် မ run ရ (for debugging purpose)
+
+/usr/share/wayland-sessions/Hyprland.desktop
+
+ဒီမှာရှိနေမှရ ။
